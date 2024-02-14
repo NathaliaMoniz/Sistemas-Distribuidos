@@ -1,0 +1,3 @@
+C:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/cmake-build-debug/CMakeFiles/Sistemas_Distribuidos.dir
+C:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
