@@ -61,6 +61,36 @@ build CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p2.c.obj: C_COMPILER__Sistemas_D
   OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
   OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab1
 
+build CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p1.c.obj: C_COMPILER__Sistemas_Distribuidos_unscanned_Debug C$:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/Lab2/apoyo/p1.c || cmake_object_order_depends_target_Sistemas_Distribuidos
+  DEP_FILE = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo\p1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo
+
+build CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p6.c.obj: C_COMPILER__Sistemas_Distribuidos_unscanned_Debug C$:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/Lab2/apoyo/p6.c || cmake_object_order_depends_target_Sistemas_Distribuidos
+  DEP_FILE = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo\p6.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo
+
+build CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p7.c.obj: C_COMPILER__Sistemas_Distribuidos_unscanned_Debug C$:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/Lab2/apoyo/p7.c || cmake_object_order_depends_target_Sistemas_Distribuidos
+  DEP_FILE = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo\p7.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo
+
+build CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/pi.c.obj: C_COMPILER__Sistemas_Distribuidos_unscanned_Debug C$:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/Lab2/apoyo/pi.c || cmake_object_order_depends_target_Sistemas_Distribuidos
+  DEP_FILE = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo\pi.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo
+
+build CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/pi2.c.obj: C_COMPILER__Sistemas_Distribuidos_unscanned_Debug C$:/Users/natha/OneDrive/Documentos/GitHub/Sistemas-Distribuidos/Lab2/apoyo/pi2.c || cmake_object_order_depends_target_Sistemas_Distribuidos
+  DEP_FILE = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo\pi2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sistemas_Distribuidos.dir\Lab2\apoyo
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Sistemas_Distribuidos
@@ -69,7 +99,7 @@ build CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p2.c.obj: C_COMPILER__Sistemas_D
 #############################################
 # Link the executable Sistemas_Distribuidos.exe
 
-build Sistemas_Distribuidos.exe: C_EXECUTABLE_LINKER__Sistemas_Distribuidos_Debug CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p1.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p2.c.obj
+build Sistemas_Distribuidos.exe: C_EXECUTABLE_LINKER__Sistemas_Distribuidos_Debug CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p1.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab1/p2.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p1.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p6.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/p7.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/pi.c.obj CMakeFiles/Sistemas_Distribuidos.dir/Lab2/apoyo/pi2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Sistemas_Distribuidos.dir
