@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
             printf("Argumento %d = Error de conversion\n", i);   // error en la conversión 
         }
         else{
-            printf("Argumento %d = %ld\n", i, numero);
+            printf("Argumento %d = %ld\n", i, numero); 
         }
         
     }
