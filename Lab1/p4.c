@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
     long *num_array = (long *)malloc(argc * sizeof(long));
     char **string_array = (char**)malloc(argc * sizeof(char*));
     int n = 0;
-    int cadenas = 0;
+    int cadenas = 0; 
 
     for(i = 1; i < argc; i++){
         
