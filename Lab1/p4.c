@@ -33,7 +33,6 @@ int main(int argc, char *argv[]){
 
     for(i = 1; i < argc; i++){
         
-        
         long numero = strtol(argv[i], &end, 10);
         if (*end != '\0') { 
             string_array[cadenas] = (char*)malloc(strlen(argv[i] + 1));
@@ -44,7 +43,6 @@ int main(int argc, char *argv[]){
         else{
             num_array[n] = numero;
             n++;
-            
         }
         
     }
